@@ -1,0 +1,140 @@
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 60%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+
+  h1 {
+    color: var(--black-color-1);
+    font-family: var(--font-base);
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+
+    margin-top: -20px;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 44px;
+      }
+  }
+
+  h5 {
+    color: var(--black-color-1);
+    font-family: var(--font-base);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 22px;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 80%;
+  }
+}
+
+.signin-logo {
+  margin-left: -20px;
+  width: 306px;
+  object-fit: contain;
+
+  @media screen and (max-width: 1200px) {
+    width: 220px;
+  }
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+
+  margin-top: 44px;
+}
+
+.form__input {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  input {
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+
+    font-family: var(--font-base);
+  }
+
+  img {
+    width: 16px;
+  }
+}
+
+.form__action-section {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: var(--font-base);
+  font-size: 12px;
+  font-weight: 500;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+
+    label{
+        cursor: pointer;
+    }
+  }
+
+  span {
+    color: var(--red-color);
+    cursor: pointer;
+  }
+}
+
+.signin__button {
+  background: var(--yellow-color);
+  color: #3c3c3c;
+  border-radius: 5px;
+  border: 1px solid var(--yellow-color);
+  cursor: pointer;
+
+  font-size: 14px;
+  font-family: var(--font-base);
+  font-weight: 700;
+
+  padding: 11px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background: var(--white-color);
+    color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+  }
+}
+
+.change__options{
+    font-size: 12px;
+    font-family: var(--font-base);
+    font-weight: 500;
+    
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+    cursor: pointer;
+}

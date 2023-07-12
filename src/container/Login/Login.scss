@@ -1,0 +1,36 @@
+.login__container{
+    background: var(--secondary-color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.login__left-section{
+    width: 45%;
+    background-color: var(--white-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+    }
+}
+.login__right-section{
+    width: 55%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 65%;
+        object-fit: contain;
+    }
+
+    @media screen and (max-width: 900px) {
+        display: none;
+    }
+}

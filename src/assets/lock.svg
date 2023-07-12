@@ -1,0 +1,19 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#F2F2F2"/>
+<g id="1 - Login">
+<rect width="1440" height="990" transform="translate(-128 -612)" fill="white"/>
+<path id="Mask" d="M-128 -612H1311V378H-128V-612Z" fill="white"/>
+<g id="Group 10074">
+<g id="Group 10076">
+<g id="Rectangle 1935">
+<rect x="-20" y="-11" width="427" height="38" rx="5" fill="white"/>
+<rect x="-19.5" y="-10.5" width="426" height="37" rx="4.5" stroke="black" stroke-opacity="0.2"/>
+</g>
+<g id="lock">
+<path id="Vector" d="M12.6667 7.33398H3.33333C2.59695 7.33398 2 7.93094 2 8.66732V13.334C2 14.0704 2.59695 14.6673 3.33333 14.6673H12.6667C13.403 14.6673 14 14.0704 14 13.334V8.66732C14 7.93094 13.403 7.33398 12.6667 7.33398Z" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M4.66699 7.33398V4.66732C4.66699 3.78326 5.01818 2.93542 5.6433 2.3103C6.26842 1.68517 7.11627 1.33398 8.00033 1.33398C8.88438 1.33398 9.73223 1.68517 10.3573 2.3103C10.9825 2.93542 11.3337 3.78326 11.3337 4.66732V7.33398" stroke="#203060" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

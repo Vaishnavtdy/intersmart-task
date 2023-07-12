@@ -1,0 +1,1 @@
+export const baseUrl = "https://dev1.intersmarthosting.in/bbay-new/api"
