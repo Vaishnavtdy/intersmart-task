@@ -65,8 +65,7 @@ const SignUp = ({ setRegisterMode }) => {
             title: "Success",
             icon: "success",
           });
-        }
-        else{
+        } else {
           swal({
             title: res.data.message,
             icon: "error",
@@ -108,13 +107,15 @@ const SignUp = ({ setRegisterMode }) => {
 
         <div className="form__group">
           <input
-            type="date"
+            type="text"
             placeholder="DOB"
             name="dob"
             id="dob"
             value={inputs.dob}
             onChange={handleInput}
             required
+            onFocus={(e) => (e.target.type = "date")}
+            onBlur={(e) => (e.target.type = "text")}
           />
 
           <input
